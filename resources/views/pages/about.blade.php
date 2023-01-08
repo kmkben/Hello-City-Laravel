@@ -12,8 +12,7 @@
 
         <footer>
             <p>
-                &copy; Copyright 2023 &middot;
-                <a href="/">Home</a>
+                &copy; Copyright 2023
             </p>
         </footer>
     </body>
