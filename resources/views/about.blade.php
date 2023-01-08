@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
     </head>
     <body>
-        <h1>Hello form Paris!</h1>
+        <h1>Built with &hearts; by Kmk</h1>
 
-        <p>It's currently {{ date('h:i A') }}</p>
+        <p><a href="/">Go back </a></p>
 
         <footer>
             <p>
                 &copy; Copyright 2023 &middot;
-                <a href="#">About Us</a>
+                <a href="/">Home</a>
             </p>
         </footer>
     </body>
