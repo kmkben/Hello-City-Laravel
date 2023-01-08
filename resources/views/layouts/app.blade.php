@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <title>
-            {{ $title }}
+            {{ page_title($title ?? null) }}
         </title>
 
         <script src="https://cdn.tailwindcss.com"></script>
