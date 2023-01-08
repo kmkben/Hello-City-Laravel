@@ -8,17 +8,21 @@
             @yield('title', config('app.name'))
         </title>
 
-    </head>
-    <body>
-        
-        @yield('content')
+        <script src="https://cdn.tailwindcss.com"></script>
 
-        <footer>
+    </head>
+    <body class="py-6 flex flex-col justify-between items-center min-h-screen">
+
+        <main role="main" class="flex flex-col justify-center items-center">
+            @yield('content')
+        </main>
+        
+        <footer class="text-gray-400">
             <p>
                 &copy; Copyright 2023 
 
                 @if(! Route::is('app_about'))
-                    &middot; <a href="{{ route('app_about') }}">About Us</a>
+                    &middot; <a href="{{ route('app_about') }}" class="text-indigo-500 hover:text-indigo-600 underline">About Us</a>
                 @endif
 
             </p>
