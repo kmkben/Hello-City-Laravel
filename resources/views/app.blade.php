@@ -15,8 +15,12 @@
 
         <footer>
             <p>
-                &copy; Copyright 2023 &middot;
-                <a href="{{ route('app_about') }}">About Us</a>
+                &copy; Copyright 2023 
+
+                @if(! Route::is('app_about'))
+                    &middot; <a href="{{ route('app_about') }}">About Us</a>
+                @endif
+
             </p>
         </footer>
     </body>
